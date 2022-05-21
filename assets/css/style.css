@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    overflow: auto;
 }
 
 body {
@@ -47,7 +48,8 @@ a {
 }
 
 p {
-    font-size: 25px;
+    font-size: 20px;
+    word-wrap: break-word;
 }
 
 .hero {
@@ -99,7 +101,7 @@ p {
 .benefit img {
     display: block;
     margin: 10px auto;
-    max-width: 200px;
+    max-width: 150px;
 }
 
 .service {
